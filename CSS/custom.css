@@ -99,7 +99,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 88%;
+  width: 80%;
   margin: 0 auto;
   padding: 0px 1.5rem;
   border: 1px solid black;
@@ -176,6 +176,9 @@
     background-size: cover;
     width: 300px;
     height: 300px;
+  }
+  #FeatureDivStyle {
+    width: 88%;
   }
 }
 
