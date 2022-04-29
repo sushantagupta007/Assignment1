@@ -1,0 +1,190 @@
+/* #logoDiv {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+} */
+
+.navbar {
+  padding-top: 0 !important;
+}
+#toggleDiv {
+  display: flex;
+  justify-content: center;
+  width: 5%;
+}
+
+#logoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-toggler {
+  border: 1 !important;
+}
+
+#CardTopStyle {
+  padding: 0px 1.5rem;
+  position: relative;
+}
+#CardTopBackground {
+  background: url("/Image/Background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10rem;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#CardTopMainTitle {
+  font-style: italic;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+}
+
+#CardInsideStyle {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50;
+  width: 90%;
+  padding: 2rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 25px;
+  top: -50px;
+}
+
+.customCardPosition {
+  position: absolute;
+  top: 70%;
+}
+
+#CardBodyStyle {
+  position: absolute;
+  padding: 1rem;
+  margin: 0px 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(174, 170, 170);
+  background-color: white;
+}
+
+#carouselExampleIndicator {
+  border-radius: 10px !important;
+}
+
+#cardButton {
+  font-weight: lighter;
+  font-style: italic;
+  border-radius: 25px;
+  width: 100%;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+/* Feature Card CSS */
+#FeatureDivStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 88%;
+  margin: 0 auto;
+  padding: 0px 1.5rem;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+#FeatureInnerDiv {
+  width: 100%;
+}
+
+.FeatureInnerAvatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(213, 209, 209);
+  filter: blur(7px);
+}
+
+/* Swiper CSS */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  #CardInsideStyle {
+    flex-direction: row;
+  }
+  #mainCard {
+    padding: 0 4rem;
+  }
+  .FeatureInsideContent {
+    display: flex;
+    flex-direction: column;
+  }
+  #FeatureInnerDiv {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #logoDiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #largeDeviceNav {
+    display: flex;
+    width: 100%;
+  }
+  #logoDiv {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #navbarTextSpacing {
+    display: flex;
+    justify-content: space-around;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  top: 15px;
+
+  background-color: brown;
+  border-radius: 0 !important;
+  width: 30px;
+  height: 5px;
+}
