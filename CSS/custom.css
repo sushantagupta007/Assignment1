@@ -80,10 +80,6 @@
   background-color: white;
 }
 
-#carouselExampleIndicator {
-  border-radius: 10px !important;
-}
-
 #cardButton {
   font-weight: lighter;
   font-style: italic;
@@ -179,6 +175,10 @@
   }
   #FeatureDivStyle {
     width: 88%;
+  }
+  #cardButton {
+    width: 50%;
+    margin: 1rem 0;
   }
 }
 
